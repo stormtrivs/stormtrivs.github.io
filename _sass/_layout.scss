@@ -5,6 +5,8 @@
     height: 500px;
     background: url(../img/test.jpg) center center;
     background-size: cover;
+    top: 50px;
+    box-shadow: 2px 2px 2px #bbb;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -20,7 +22,7 @@
     text-align: center;
     margin-bottom: 20px;
     clear: both;
-    padding-top: 100px;
+    padding-top: 150px;
 
     span {
         display: inline-block;
@@ -39,25 +41,42 @@
 
 }
 .site-nav {
-    float: right;
-    margin: 30px 30px 0 0;
-
-}
-.site-nav a {
-    display: inline-block;
-    margin-left: 20px;
-
-    color: #111111;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 3;
 
 
-    &:hover {
-        color: black;
+    ul {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        float: right;
+
     }
-}
+    li {
+        height: 50px;
+        list-style-type: none;
+        width: 150px;
+        line-height: 50px;
+        display: inline-block;
+    }
 
+    a {
+        text-decoration: none;
+        display: block;
+        color: #111111;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    a:hover {
+        color: #ccc;
+    }
+
+}
 
 
 /**
@@ -135,6 +154,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    margin-top:50px;
 }
 
 .page-heading {
