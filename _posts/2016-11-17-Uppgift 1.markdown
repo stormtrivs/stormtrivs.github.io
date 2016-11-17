@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "Exam assignment 1"
+date:   2016-11-17 15:07:06
+categories: assignment
+---
+
+### Vad tanker du om “pre-compiling” din CSS?
+* Jämfört med vanlig CSS?
+    * Känns som att detta borde vara standard för CSS. Jag tycker det
+    är mycket smartare och kommer ofta använda mig av SCSS. Att kunna
+    använda variabler, göra beräkningar och lättare organisera min kod
+    känns som väldigt bra aspekter av SCSS.
+
+
+* Vilka  tekniker använde du?
+    * Jag har hittils använt mig av nesting och variablar.
+
+
+
+* Fördelar och nackdelar?
+    * Jag skulle vilja påstå att scss är lättare att läsa. Det är också
+    lättare att strukturera och hålla ordning i sin kod. Organisera
+    * Man slipper upprepa sig.
+    * Mindre kod
+    * DRY
+    * Man kan börja göra beräkningar i CSS.
+    * Bättre organisation
+    * Använda Variabler
+    * Snabbare laddtid – inte ladda in många css filer.
+
+### Vad tycker du om ”static site generators?
+* Vilka projekt är de lämpliga för?
+    * Presentationssidor för företag eller individer.  Det finns ibland
+    stora anledning för att man ibland vill ha en statisk sida.
+
+### Vad är robots.txt och hur har du konfigurerat den för din site?
+* En textfil som används för att kontrollera vad sökmotorer och
+webbcrawlers får eller inte får tillgång till på en webbsida.
+Man kan tex. Blockera vissa mappar, bilder för google bildsökning.
+
+### Vad är humans.txt och hur har du konfigurerat den för din site?
+* ”Credits” för hemsida. Här står det ofta vem som gjort sidan, vilka
+man vill tacka, samarbeten, vilken teknik man har använt.
+
+### Hur har du implementerat kommentarer på dina blog posts?
+* Jag har använt mig av [Disqus] och använt mig av facebookprofil. Gjorde
+inget speciellt utöver att använda mig av Disqus och följde deras anvisningar för att implementera kommentarer.
+
+### Vad är Open Graph och hur använder du det?
+* [Open Graph] används för att skapa en ”mini presentation” av en webbsida
+ som används när webbsidan länkas till i tex. Sociala medier. Man kan
+ använda bild, kort presentationstext, webbsidansnamn mm.
+
+[Disqus]:      https://disqus.com
+[Open Graph]: http://ogp.me/
