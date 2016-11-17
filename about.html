@@ -2,22 +2,21 @@
 layout: default
 ---
 
-<div class="home">
+<section>
+    <h1>Om mig</h1>
 
-    <h1 class="page-heading">Test</h1>
+    <div class="portrait"></div>
 
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-            <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-        </li>
-        {% endfor %}
-    </ul>
+    <p> <strong>Stefan Mårtenson</strong>
+     heter jag och är utbildad pianist och lärare men med hjärtat i problemlösning. Nu jobbar jag 60% som pianopedagog och studerar Utveckling och drift
+    av mjukvarusystem och än så länge så känns det väldigt lovande. Utanför stillasittande framför skärm med problem
+    drivs jag av äventyr och adrenalin. Jag har spenderat mycket tid i vildmarker i Europa och när vindarna tillåter kitesurfar jag.
+    Nu i vinter ska jag korsa Europas största sammahängande vildmark med skidor, pulka och tält. Men det stora äventyret
+    har ännu inte sats i gång till fullo, att segla runt jorden. Jag studerar på distans för att ha möjligheten att flytta runt och samtidigt studera.
+    Drömmen hade väl varit att kunna arbeta visstid på distans i framtiden gärna samtidigt som jag upplever världen på alla möjliga vis. Jag har tidigare
+    drivit företag kring audiotiva upplevelser och markandsföring, skulle vilja påstå att jag kan det där med ljud rätt bra. En möjlig väg att gå i framtiden
+    är kanske att kombinera ljud och programmering. Vem vet...</p>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+</section>

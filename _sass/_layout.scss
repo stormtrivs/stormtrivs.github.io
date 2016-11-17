@@ -6,7 +6,7 @@
     background: url(../img/test.jpg) center center;
     background-size: cover;
     top: 50px;
-    box-shadow: 2px 2px 2px #bbb;
+    box-shadow: 2px 2px 2px $grey-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -16,7 +16,7 @@
 .site-title {
     font-size: 70px;
     font-weight: 700;
-    color: white;
+    color: $background-color;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     text-align: center;
@@ -27,7 +27,7 @@
     span {
         display: inline-block;
         padding: 0.2em 0.5em;
-        border: white solid 10px;
+        border: $background-color solid 10px;
     }
 }
 
@@ -36,7 +36,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: white;
+    color: $background-color;
     line-height:1;
 
 }
@@ -44,7 +44,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: white;
+    background-color: $background-color;
     z-index: 3;
 
 
@@ -66,18 +66,25 @@
     a {
         text-decoration: none;
         display: block;
-        color: #111111;
+        color: $text-color;
         font-size: 14px;
         font-weight: 700;
         text-transform: uppercase;
     }
 
     a:hover {
-        color: #ccc;
+        color: $grey-color;
     }
 
 }
 
+.portrait {
+    background: url(../img/stefan.jpg);
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin: 20px;
+}
 
 /**
  * Site footer
@@ -85,6 +92,9 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    margin-top: 100px;
+    background-color: $background-grey;
+
 }
 
 .footer-heading {
